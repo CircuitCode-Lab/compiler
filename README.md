@@ -11,7 +11,7 @@ Repo ini berasingan daripada `clab` supaya compiler boleh dipasang sebagai **app
 index.html      → editor, input, output + interpreter PicoC (WebAssembly) dibenamkan, dijalankan dalam Web Worker
 manifest.json   → maklumat app (id /compiler/, nama "C Compiler")
 sw.js           → service worker: simpan semua fail supaya boleh guna offline
-icon-192.png, icon-512.png
+favicon.png, apple-touch-icon.png, icon-192.png, icon-512.png, icon-maskable-192.png, icon-maskable-512.png
 ```
 
 ## Nota teknikal
@@ -27,6 +27,7 @@ Ubah `index.html`, kemudian **naikkan nombor `CACHE` dalam `sw.js`** (cth. `c-co
 PicoC — lesen BSD, © 2009–2011 Zik Saleeba, © 2015 Joseph Poirier.
 
 ## Sejarah
+- **20 Nov 2026:** Ikon baharu "C Coding Orbit" (favicon, ikon app, ikon maskable Android, apple-touch-icon). Cache v2.
 - **20 Nov 2026:** Dipindah dari `clab/compiler/` ke repo sendiri. Alamat lama melencong ke sini.
 
 ---
