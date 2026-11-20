@@ -1,0 +1,25 @@
+{
+  "id": "/compiler/",
+  "name": "C Lab Compiler",
+  "short_name": "C Compiler",
+  "description": "Compiler C offline untuk pelajar DEC20313 — C Programming Learning Lab",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f3fd6",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
